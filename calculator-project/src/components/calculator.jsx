@@ -1,13 +1,30 @@
-// import Display from './display'
+import {Display, Numbers, Operations} from './index'
 
-// const Calculator = (() => {
-//     return(
-//         <section>
-//             <h1>Calculator</h1>
-//             <h1><Display></Display></h1>
+const Calculator = (() => {
 
-//         </section>
-//     )
-// })
+    let displayText = ""
+    function updateDisplay(newText){
+        displayText = newText
+    }
 
-// export default Calculator
+
+    function pressNumber(event){
+        const pressedNumber = event.target.id
+        
+        updateDisplay(pressNumber)
+    }
+
+
+    return(
+        <section>
+            <div className= 'box'>
+            <Display displayText={displayText}/>
+            <Numbers pressedNumber = {pressedNumber}/>
+            <Operations/>
+            </div>
+        </section>
+    )
+})
+
+
+export default Calculator

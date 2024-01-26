@@ -1,7 +1,16 @@
-const Display = (() => {
+
+const Display = ((props) => {
+    console.log(props)
+
     return(
-        <h1>Display</h1>
+        <section>
+            <div className = 'features'>
+                <h1 id= "calculatorScreen">{props.displayText}</h1>
+            </div>
+        </section>
     )
 })
 
+
 export default Display
+

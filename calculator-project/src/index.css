@@ -32,6 +32,7 @@ body {
 
 h1 {
   font-size: 3.2em;
+  color: "pink";
   line-height: 1.1;
 }
 
@@ -52,6 +53,14 @@ button:hover {
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
+}
+
+.box {
+  border: 2px dashed black;
+}
+
+.features {
+  border: 2px solid green;
 }
 
 @media (prefers-color-scheme: light) {

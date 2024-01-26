@@ -1,15 +1,13 @@
 import { useState } from 'react'
 import './App.css'
-import {Display, Numbers, Operations} from './components/index'
+import Calculator from './components/calculator'
 
 
 function App() {
 
   return (
     <div>
-      <Display></Display>
-      <Numbers></Numbers>
-      <Operations></Operations>
+      <Calculator/>
     </div>
   )
 }
