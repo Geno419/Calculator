@@ -1,16 +1,9 @@
+const Display = (props) => {
+  return (
+    <section className="display">
+      <h1 id="calculatorScreen">{props.displayText}</h1>
+    </section>
+  );
+};
 
-const Display = ((props) => {
-    console.log(props)
-
-    return(
-        <section>
-            <div className = 'features'>
-                <h1 id= "calculatorScreen">{props.displayText}</h1>
-            </div>
-        </section>
-    )
-})
-
-
-export default Display
-
+export default Display;

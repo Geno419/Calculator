@@ -1,15 +1,13 @@
-import { useState } from 'react'
-import './App.css'
-import Calculator from './components/calculator'
-
+import { useState } from "react";
+import "./App.css";
+import Calculator from "./components/calculator";
 
 function App() {
-
   return (
     <div>
-      <Calculator/>
+      <Calculator />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
