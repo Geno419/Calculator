@@ -18,7 +18,7 @@ This is a simple calculator application built using React. It allows users to pe
 
 1. **Clone the Repository**: Clone this repository to your local machine using `git clone`.
 2. **Install Dependencies**: Run `npm install` to install all the necessary dependencies.
-3. **Run the Application**: Execute `npm start` to run the application locally.
+3. **Run the Application**: Execute `npm run dev` to run the application locally.
 4. **Open in Browser**: Open your web browser and navigate to `http://localhost:5173` to view the calculator app.
 
 ### Folder Structure
